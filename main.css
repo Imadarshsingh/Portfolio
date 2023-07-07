@@ -116,7 +116,10 @@ section:nth-child(2n + 1) {
 /*About Section*/
 
 #about {
-    height: auto;
+    /* margin: 10px; */
+    padding-top: 10px;
+    
+    height: 500px;
     width: 100%;
     position: relative;
     margin-bottom: 0px;
@@ -138,13 +141,13 @@ section:nth-child(2n + 1) {
 }
 
 #about-para {
-    padding: 10px;
+    /* padding: 10px; */
     width: 70%;
     text-align: justify;
     color: grey;
     line-height: 28px;
-    font-size: 1.1rem;
-    margin: auto;
+    font-size: 1.5rem;
+    /* margin: auto; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
